@@ -45,6 +45,10 @@ The used car market has been rapidly expanding as consumers seek alternatives to
   * Removed outliers from `Horsepower` and `Listing_Price`
   * Filtered invalid or unspecified category entries
 
+<img src="https://github.com/sallysooo/Used-Car-Price-Prediction/blob/main/KNIME%20workflow/img/preprocess1.png?raw=true" alt="Preprocessing Workflow" width="600">
+<img src="https://github.com/sallysooo/Used-Car-Price-Prediction/blob/main/KNIME%20workflow/img/preprocess2.png?raw=true" alt="Preprocessing Workflow" width="600">
+<img src="https://github.com/sallysooo/Used-Car-Price-Prediction/blob/main/KNIME%20workflow/img/preprocess3.png?raw=true" alt="Preprocessing Workflow" width="600">
+
 ### 2. Feature Encoding
 
 We applied two encoding techniques for categorical variables:
@@ -54,12 +58,16 @@ We applied two encoding techniques for categorical variables:
 
 These were evaluated in combination with different regression models to understand how encoding influences performance.
 
+<img src="https://github.com/sallysooo/Used-Car-Price-Prediction/blob/main/KNIME%20workflow/img/target_encoding.png?raw=true" alt="TE Workflow" width="600">
+
 ### 3. Models
 
 1. **Multiple Linear Regression (MLR)**
 2. **Random Forest Regression (RFR)**
 
 Both models were trained using **5-fold cross-validation**. Hyperparameters for RFR were tuned based on grid search and performance optimization.
+
+<img src="https://github.com/sallysooo/Used-Car-Price-Prediction/blob/main/KNIME%20workflow/img/rf_original.png?raw=true" alt="RF Workflow" width="600">
 
 ## Results
 
@@ -94,9 +102,8 @@ This project was conducted as part of a university research initiative and has b
 
 ## Technologies
 
-* Python 3.9, KNIME Analytics
-* pandas, NumPy
-* scikit-learn
+* Python 3.9, KNIME Analytics 5.2.5
+* pandas, numpy, scikit-learn
 * Matplotlib, Seaborn (for visualization)
 * Jupyter Notebook
 
