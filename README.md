@@ -90,7 +90,7 @@ This project was conducted as part of a university research initiative and has b
 > **Development of a Machine Learning-Based Prediction Model for Used Car Listing Prices in Germany**
 > *Kim et al., Sookmyung Women’s University, 2025*
 
-📄 [Read Full Paper (PDF)](./최종본%20논문.pdf)
+📄 [Read Full Paper (PDF)](./development-of-a-machine-learning-based-prediction-model-for-used-car-listing-prices-in-germany.pdf)
 
 ## Technologies
 
